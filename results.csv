@@ -1,0 +1,39 @@
+#define XMIN -2
+#define YMIN -2
+#define XSTEP 0.004
+#define YSTEP 0.004
+#define XPIXELS 1000
+#define YPIXELS 1000
+#define MAXITER 1000
+#
+Language,Time
+C,0.765110
+C,0.768668
+C,0.767480
+#
+Python_naive,28.753463745117188
+Python_naive,28.367643117904663
+Python_naive,28.87598180770874
+Python_naive_complex,24.651657104492188
+Python_naive_complex,24.328752040863037
+Python_naive_complex,24.293081045150757
+Python_nparray,28.157123565673828
+Python_nparray,28.534372568130493
+Python_nparray,30.18589210510254
+Python_nparray_complex,24.02734351158142
+Python_nparray_complex,23.92320203781128
+Python_nparray_complex,25.36644434928894
+#
+#Python_nparray_complex_matrixmul,31.456636905670166
+#Python_nparray_complex_matrixmul,31.31145668029785
+#Python_nparray_complex_matrixmul,31.49964928627014
+#
+Python_numba,1.455500602722168
+Python_numba,1.4406661987304688
+Python_numba,1.5172605514526367
+#Python_numba_fastmath,1.4262728691101074
+#Python_numba_fastmath,1.4554455280303955
+#Python_numba_fastmath,1.466599464416504
+Python_numba_complex,2.6260411739349365
+Python_numba_complex,2.559354305267334
+Python_numba_complex,2.6708009243011475
