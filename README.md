@@ -1,2 +1,2 @@
 # mandel
-Some experiments on optimising Python code for rendering the famous Mandelbrot set, and comparision with an implementation in plain C.
+A renderer for the famous Mandelbrot set, written in C for optimal performance. Also includes some systematic experiments with different implementations in Python (in particular the numba library) to compare performance.
